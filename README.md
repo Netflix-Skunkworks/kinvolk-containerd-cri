@@ -1,3 +1,18 @@
+# Titus Containerd-cri Fork
+
+* All development for the Titus fork of containerd-cri happens on the [titus](https://github.com/Netflix-Skunkworks/kinvolk-containerd-cri/tree/titus) branch.
+* Titus releases are tagged with `vX.Y-titus` and pushed to this remote.
+* Incoming PRs often come from [Kinvolk](https://github.com/Netflix-Skunkworks/kinvolk-containerd-cri/compare/titus...kinvolk:titus?expand=1)
+* Inside Netflix, look at the `titus-kubelet` which builds this repo.
+
+## Updating containerd-cri
+
+* Make a PR from a proposed change into the `titus branch`
+* Update the tag to indicate a new release
+* TBD
+
+---
+
 # cri
 <p align="center">
 <img src="https://kubernetes.io/images/favicon.png" width="50" height="50">
